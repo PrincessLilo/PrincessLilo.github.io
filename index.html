@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Hanalei|Londrina+Sketch|Playfair+Display');
+
+      h1 {
+        color: yellow;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+      }
+      p {
+        color: white;
+        font-family:'Playfair Display', serif;
+        text-align:justify;
+        font-size: 275%
+      }
+      a {
+        color: pink;
+      }
+      .greenLink {
+        color: green;
+
+      }
+      html{
+        background-color: #171514;
+        background-image:url("http://orig05.deviantart.net/8e85/f/2012/011/0/4/sailor___moon_sparkling_sensation___by_shadowjupiter-d4m30u9.gif")
+      }
+    </style>
+  </head>
+  <body>
+    <img src="https://pbs.twimg.com/media/C5WzAmTWYAAAw4p.jpg" width="1300" height="325">
+
+    <h1>Bio:</h1><br>
+    <p>I am a Teenage Girl Who Does Many Things! And Is Spreading A Positive Message To Others To Do What They Want And Follow Their Dreams!!
+      <p>Be Postive and Be Great!!!!</p>
+    <iframe src="https://open.spotify.com/embed?uri=spotify:user:l_.lilo._l:playlist:7mTaUeOmFxYGvhixC5GMuB" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <a class="greenLink" id="randomSite" href="">Click here for a random positive site.</a><br>
+    <a href="http://www.ismercuryinretrograde.com/">Click Here To Leave</a>
+    <br><a href="me.html">Go to me page!</a>
+  </body>
+  <script type="text/javascript">
+  var sites = ['https://www.brainyquote.com/topics/random', 'http://www.allcupation.com/quotes/positive-quotes-that-summarize-the-wisdom-about-life-and-future/', 'https://tumblr.com'];
+  var element = document.getElementById('randomSite');
+  var randomNumber = Math.floor(Math.random() * 3);
+  element.href = sites[randomNumber];
+  </script>
+</html>
